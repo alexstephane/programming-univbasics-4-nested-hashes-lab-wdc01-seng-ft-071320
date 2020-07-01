@@ -245,6 +245,7 @@ def changing_alan
         :known_for => "Unix",
         :languages => ["C"]
       }
+      alans_new_info = "GUI"
     }
 programmer_hash[:alan_kay][:known_for] = alans_new_info
      return programmer_hash
