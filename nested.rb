@@ -240,12 +240,13 @@ def changing_alan
       :alan_kay => {
         :known_for => "Object Orientation",
         :languages => ["Smalltalk", "LISP"]
+        alans_new_info = "GUI"
       },
       :dennis_ritchie => {
         :known_for => "Unix",
         :languages => ["C"]
       }
-      alans_new_info = "GUI"
+      
     }
 programmer_hash[:alan_kay][:known_for] = alans_new_info
      return programmer_hash
