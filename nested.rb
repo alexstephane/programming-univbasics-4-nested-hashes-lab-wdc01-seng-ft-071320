@@ -268,9 +268,10 @@ def adding_to_dennis
         :known_for => "Unix",
         :languages => ["C"]
       }
+      programmer_hash[:alan_kay][:known_for] = alans_new_info
     }
 
-      programmer_hash[:alan_kay][:known_for] = alans_new_info
+      
       return programmer_hash
 end
 
